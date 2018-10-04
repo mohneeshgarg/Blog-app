@@ -12,7 +12,7 @@
                <div class="content">
                    <a class="header" href="/blogs/<%= blog._id%>"><%= blog.title %></a>
                     <div class="meta">
-                      <span><%= blog.created.toDateString() %></span>
+                      <span><%= blog.created.toDateStrings() %></span>
                     </div>
                     <div class="description">
                        <p><%- blog.body.substring(0,100)%>...</p>
